@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page de présentation</title>
+<style>
+  /* Deux polices seulement : une pour les titres, une pour le texte */
+  :root {
+    --couleur-fond: #f7f7f5;
+    --couleur-carte: #ffffff;
+    --couleur-texte: #2b2b2b;
+    --couleur-accent: #2f5d50;
+    --couleur-bordure: #f36347;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.6;
+  }
+
+  header {
+    text-align: center;
+    padding: 3rem 1rem 2rem;
+  }
+
+  header h1 {
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 2rem;
+    margin: 0 0 0.5rem;
+    color: var(--couleur-accent);
+  }
+
+  header p {
+    font-size: 1.1rem;
+    max-width: 40em;
+    margin: 0 auto;
+  }
+
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem 3rem;
+  }
+
+  section {
+    background-color: var(--couleur-carte);
+    border: 1px solid var(--couleur-bordure);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  section h2 {
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 1.2rem;
+    color: var(--couleur-accent);
+    margin-top: 0;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  a.lien-github {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    background-color: var(--couleur-accent);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 0.95rem;
+  }
+
+  a.lien-github:hover,
+  a.lien-github:focus {
+    background-color: #244a3f;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666666;
+    padding-bottom: 2rem;
+  }
+
+  /* Adaptation pour petits écrans */
+  @media (max-width: 400px) {
+    header h1 {
+      font-size: 1.6rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <h1>Florian</h1>
+    <p>Je suis élève médiamaticien·ne CFC en 2e année, super heureux.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Mes compétences et envies</h2>
+      <!-- Vous pouvez remplacer ces trois éléments par vos propres compétences -->
+      <ul>
+        <li><span style="text-decoration: line-through ;">Design graphique</span></li>
+        <li>Photographie</li>
+        <li>Découverte du code (HTML/CSS)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Me retrouver</h2>
+      <p>Vous pouvez consulter mes projets sur GitHub en cliquant sur le lien ci-dessous.</p>
+      <a class="lien-github" href="https://github.com/Biby09/" target="_blank" rel="noopener">Voir mon GitHub</a>
+    </section>
+  </main>
+
+  <!-- Pied de page simple -->
+  <footer>
+    <p>Merci de votre visite.</p>
+  </footer>
+
+</body>
+</html>

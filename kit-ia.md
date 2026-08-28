@@ -18,4 +18,4 @@ Règle : quota épuisé → je change d’outil. Je ne paie jamais.
 - mettre une carte bancaire
 - « essai 14 jours puis 20 $ »
 - un outil que je ne peux pas ouvrir à l’école
-- Utiliser des outils rapportant à des millardaires d'extrème droite
+- Utiliser des outils appartenant à des milliardaires d’extrême droite

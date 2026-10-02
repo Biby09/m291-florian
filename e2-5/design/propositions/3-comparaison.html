@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparaison · Focale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Changer de piste graphique : remplacer le fichier CSS ci-dessous -->
+  <!-- <link rel="stylesheet" href="css/piste-a-editoriale.css"> -->
+  <!-- <link rel="stylesheet" href="css/piste-b-chaleureuse.css"> -->
+  <link rel="stylesheet" href="css/piste-c-moderne.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="1-filtres.html">Focale<span class="logo-dot">.</span></a>
+      <form class="search" role="search">
+        <label for="q" class="visually-hidden">Rechercher un appareil</label>
+        <input id="q" type="search" placeholder="Rechercher un appareil, une monture…">
+      </form>
+      <nav aria-label="Navigation principale">
+        <a class="compare-link" href="3-comparaison.html">Comparateur <span class="badge" aria-label="3 appareils">3</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="screen" id="comparaison" aria-labelledby="t-comparaison">
+      <div class="container">
+        <p class="screen-label">3. Comparaison</p>
+        <a class="back-link" href="2-resultats.html">← Retour aux résultats</a>
+        <div class="section-head">
+          <h2 id="t-comparaison">Comparaison</h2>
+          <button type="button" class="btn-round" aria-label="Ajouter un appareil à la comparaison">+</button>
+        </div>
+        <div class="table-wrap">
+          <table class="compare-table">
+            <caption class="visually-hidden">Comparaison technique des appareils 1, 2 et 3</caption>
+            <thead><tr><th scope="col" class="crit-head">Critère</th><th scope="col"><div class="compare-device"><div class="product-media small" role="img" aria-label="Illustration de l'Appareil 1"><svg class="camera-illu" viewBox="0 0 120 84" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"><path d="M10 26 h26 l4 -12 h24 l4 12 h42 a6 6 0 0 1 6 6 v40 a6 6 0 0 1 -6 6 h-100 a6 6 0 0 1 -6 -6 v-40 a6 6 0 0 1 6 -6 z"/><path d="M84 26 v-6 h16 v6"/><circle cx="54" cy="52" r="23"/><circle cx="54" cy="52" r="16" stroke-width="2"/><circle cx="54" cy="52" r="9"/><path d="M4 36 h8 M4 62 h8" stroke-width="2.5"/></g><circle cx="54" cy="52" r="3.5" fill="currentColor"/><rect x="92" y="34" width="12" height="7" rx="1.5" fill="currentColor"/></svg></div><a class="device-name" href="4-fiche-appareil.html">Appareil 1 <span class="device-link-hint">Voir la fiche →</span></a><span class="device-mount">Sony E</span></div></th><th scope="col"><div class="compare-device"><div class="product-media small" role="img" aria-label="Illustration de l'Appareil 2"><svg class="camera-illu" viewBox="0 0 120 84" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"><path d="M10 26 h26 l4 -12 h24 l4 12 h42 a6 6 0 0 1 6 6 v40 a6 6 0 0 1 -6 6 h-100 a6 6 0 0 1 -6 -6 v-40 a6 6 0 0 1 6 -6 z"/><path d="M84 26 v-6 h16 v6"/><circle cx="54" cy="52" r="23"/><circle cx="54" cy="52" r="16" stroke-width="2"/><circle cx="54" cy="52" r="9"/><path d="M4 36 h8 M4 62 h8" stroke-width="2.5"/></g><circle cx="54" cy="52" r="3.5" fill="currentColor"/><rect x="92" y="34" width="12" height="7" rx="1.5" fill="currentColor"/></svg></div><a class="device-name" href="4-fiche-appareil.html">Appareil 2 <span class="device-link-hint">Voir la fiche →</span></a><span class="device-mount">Canon RF</span></div></th><th scope="col"><div class="compare-device"><div class="product-media small" role="img" aria-label="Illustration de l'Appareil 3"><svg class="camera-illu" viewBox="0 0 120 84" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round"><path d="M10 26 h26 l4 -12 h24 l4 12 h42 a6 6 0 0 1 6 6 v40 a6 6 0 0 1 -6 6 h-100 a6 6 0 0 1 -6 -6 v-40 a6 6 0 0 1 6 -6 z"/><path d="M84 26 v-6 h16 v6"/><circle cx="54" cy="52" r="23"/><circle cx="54" cy="52" r="16" stroke-width="2"/><circle cx="54" cy="52" r="9"/><path d="M4 36 h8 M4 62 h8" stroke-width="2.5"/></g><circle cx="54" cy="52" r="3.5" fill="currentColor"/><rect x="92" y="34" width="12" height="7" rx="1.5" fill="currentColor"/></svg></div><a class="device-name" href="4-fiche-appareil.html">Appareil 3 <span class="device-link-hint">Voir la fiche →</span></a><span class="device-mount">Nikon Z</span></div></th></tr></thead>
+            <tbody><tr><th scope="row">Monture</th><td>Sony E</td><td>Canon RF</td><td>Nikon Z</td></tr><tr><th scope="row">Capteur</th><td>Plein format</td><td>Plein format</td><td>Plein format</td></tr><tr><th scope="row">Résolution</th><td>33 Mpx</td><td>24,2 Mpx</td><td>45,7 Mpx</td></tr><tr><th scope="row">Plage dynamique</th><td>14,7 IL</td><td>14,4 IL</td><td>14,8 IL</td></tr><tr><th scope="row">Collimateurs AF</th><td>759</td><td>1 053</td><td>493</td></tr><tr><th scope="row">Stabilisation (IBIS, norme CIPA)</th><td>5,5 IL</td><td>8 IL</td><td>6 IL</td></tr><tr><th scope="row">Plage ISO native</th><td>100 – 51 200</td><td>100 – 102 400</td><td>64 – 25 600</td></tr><tr><th scope="row">Rafale (obturateur électronique)</th><td>10 i/s</td><td>40 i/s</td><td>20 i/s</td></tr><tr><th scope="row">Vidéo</th><td>4K 60p</td><td>6K 60p</td><td>8K 30p</td></tr><tr><th scope="row">Prix</th><td>2 499 CHF</td><td>2 199 CHF</td><td>3 299 CHF</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>Focale · données mises à jour le 25.09.2026</p></div>
+  </footer>
+</body>
+</html>

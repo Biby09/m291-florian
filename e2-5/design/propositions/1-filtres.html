@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filtres · Focale</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Changer de piste graphique : remplacer le fichier CSS ci-dessous -->
+  <!-- <link rel="stylesheet" href="css/piste-a-editoriale.css"> -->
+  <!-- <link rel="stylesheet" href="css/piste-b-chaleureuse.css"> -->
+  <link rel="stylesheet" href="css/piste-c-moderne.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="1-filtres.html">Focale<span class="logo-dot">.</span></a>
+      <form class="search" role="search">
+        <label for="q" class="visually-hidden">Rechercher un appareil</label>
+        <input id="q" type="search" placeholder="Rechercher un appareil, une monture…">
+      </form>
+      <nav aria-label="Navigation principale">
+        <a class="compare-link" href="3-comparaison.html">Comparateur <span class="badge" aria-label="3 appareils">3</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="screen" id="filtres" aria-labelledby="t-filtres">
+      <div class="container">
+        <p class="screen-label">1. Filtres</p>
+        <h1 id="t-filtres">Filtres</h1>
+        <p class="lead">Les mêmes termes techniques pour toutes les marques.</p>
+        <form class="filters" action="2-resultats.html">
+        <fieldset class="filter-card">
+          <legend>Capteur</legend>
+          <div class="checks"><div class="check"><input type="checkbox" id="capteur-0"><label for="capteur-0">Moyen format</label></div><div class="check"><input type="checkbox" id="capteur-1" checked><label for="capteur-1">Plein format</label></div><div class="check"><input type="checkbox" id="capteur-2"><label for="capteur-2">APS-C</label></div><div class="check"><input type="checkbox" id="capteur-3"><label for="capteur-3">Micro 4/3</label></div></div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>Résolution</legend>
+          <p class="range-output">20 – 60 Mpx</p>
+          <div class="range" aria-hidden="true" style="--from:11%;--to:56%">
+            <span class="range-track"></span><span class="range-fill"></span>
+            <span class="range-thumb" style="--pos:11%"></span><span class="range-thumb" style="--pos:56%"></span>
+          </div>
+          <div class="range-values">
+            <div class="field"><label for="reso-min">Min (Mpx)</label><input id="reso-min" type="text" inputmode="numeric" value="20"></div>
+            <div class="field"><label for="reso-max">Max (Mpx)</label><input id="reso-max" type="text" inputmode="numeric" value="60"></div>
+          </div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>Autofocus</legend>
+          <div class="checks"><div class="check"><input type="checkbox" id="af-0" checked><label for="af-0">Détection de l'œil</label></div><div class="check"><input type="checkbox" id="af-1"><label for="af-1">Détection de sujets</label></div><div class="check"><input type="checkbox" id="af-2"><label for="af-2">Suivi 3D</label></div></div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>Stabilisation</legend>
+          <div class="checks"><div class="check"><input type="checkbox" id="stab-0" checked><label for="stab-0">Stabilisation capteur (IBIS)</label></div><div class="check"><input type="checkbox" id="stab-1" checked><label for="stab-1">Efficacité ≥ 5 IL (CIPA)</label></div><div class="check"><input type="checkbox" id="stab-2"><label for="stab-2">Stabilisation numérique vidéo</label></div></div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>ISO</legend>
+          <p class="range-output">100 – 51 200</p>
+          <div class="range" aria-hidden="true" style="--from:5%;--to:70%">
+            <span class="range-track"></span><span class="range-fill"></span>
+            <span class="range-thumb" style="--pos:5%"></span><span class="range-thumb" style="--pos:70%"></span>
+          </div>
+          <div class="range-values">
+            <div class="field"><label for="iso-min">Min (ISO)</label><input id="iso-min" type="text" inputmode="numeric" value="100"></div>
+            <div class="field"><label for="iso-max">Max (ISO)</label><input id="iso-max" type="text" inputmode="numeric" value="51 200"></div>
+          </div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>Vidéo</legend>
+          <div class="checks"><div class="check"><input type="checkbox" id="video-0" checked><label for="video-0">4K 60p</label></div><div class="check"><input type="checkbox" id="video-1" checked><label for="video-1">10 bits</label></div><div class="check"><input type="checkbox" id="video-2" checked><label for="video-2">Profil Log</label></div></div>
+        </fieldset>
+        <fieldset class="filter-card">
+          <legend>Prix</legend>
+          <p class="range-output">1 000 – 3 500 CHF</p>
+          <div class="range" aria-hidden="true" style="--from:17%;--to:58%">
+            <span class="range-track"></span><span class="range-fill"></span>
+            <span class="range-thumb" style="--pos:17%"></span><span class="range-thumb" style="--pos:58%"></span>
+          </div>
+          <div class="range-values">
+            <div class="field"><label for="prix-min">Min (CHF)</label><input id="prix-min" type="text" inputmode="numeric" value="1 000"></div>
+            <div class="field"><label for="prix-max">Max (CHF)</label><input id="prix-max" type="text" inputmode="numeric" value="3 500"></div>
+          </div>
+        </fieldset>
+          <div class="actions">
+            <p class="result-count">24 appareils correspondent</p>
+            <button type="button" class="btn btn-ghost">Réinitialiser</button>
+            <button type="submit" class="btn btn-primary">Voir les résultats</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p>Focale · données mises à jour le 25.09.2026</p></div>
+  </footer>
+</body>
+</html>

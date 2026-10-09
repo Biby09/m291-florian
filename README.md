@@ -6,7 +6,9 @@ Je suis Florian et heureux d'être en FPA 2ème
 
 ## Mon projet
 
-Je n'ai pas encore d'idée
+**Focale** : une webapp de comparaison d'appareils photo, avec des specs techniques détaillées dans un vocabulaire unifié pour toutes les marques.
+
+Dossier design (Note 1) : [design/](design/)
 
 ## Comment me trouver
 

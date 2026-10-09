@@ -1,6 +1,6 @@
 # Fiche critique — design 1 · direction Éditoriale & Sobre (Piste A)
 
-Fichiers évalués : `e2-5/design/propositions/*.html` + `css/piste-a-editoriale.css`
+Fichiers évalués : [`design/propositions/`](../propositions/) (4 pages HTML) + [`css/piste-a-editoriale.css`](../propositions/css/piste-a-editoriale.css)
 Captures : [résultats](../captures/piste-a-editoriale-2-resultats.png) · [comparaison](../captures/piste-a-editoriale-3-comparaison.png)
 
 ## 2 forces
@@ -15,4 +15,4 @@ Captures : [résultats](../captures/piste-a-editoriale-2-resultats.png) · [comp
 
 ## Verdict
 
-Je **élimine** ce design parce que Camille (photographe freelance, sur ordinateur) doit **comparer plusieurs appareils et repérer vite ceux qu'elle a sélectionnés**. Or la piste A est très lisible et exemplaire en accessibilité, mais elle donne un retour visuel trop faible sur la sélection et elle est trop aérée pour une tâche de comparaison dense. Sa taille de texte reste une bonne référence à reprendre.
+J'**élimine** ce design parce que Camille (photographe freelance, sur ordinateur) doit **comparer plusieurs appareils et repérer vite ceux qu'elle a sélectionnés**. Or la piste A est très lisible et exemplaire en accessibilité, mais elle donne un retour visuel trop faible sur la sélection et elle est trop aérée pour une tâche de comparaison dense. Sa taille de texte reste une bonne référence à reprendre.

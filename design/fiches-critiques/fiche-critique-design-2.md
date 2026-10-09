@@ -1,6 +1,6 @@
 # Fiche critique — design 2 · direction Chaleureuse & Terroir (Piste B)
 
-Fichiers évalués : `e2-5/design/propositions/*.html` + `css/piste-b-chaleureuse.css`
+Fichiers évalués : [`design/propositions/`](../propositions/) (4 pages HTML) + [`css/piste-b-chaleureuse.css`](../propositions/css/piste-b-chaleureuse.css)
 Captures : [résultats](../captures/piste-b-chaleureuse-2-resultats.png) · [comparaison](../captures/piste-b-chaleureuse-3-comparaison.png)
 
 ## 2 forces
@@ -15,4 +15,4 @@ Captures : [résultats](../captures/piste-b-chaleureuse-2-resultats.png) · [com
 
 ## Verdict
 
-Je **élimine** ce design parce que Camille veut **des chiffres précis et une comparaison efficace**, avec un « look » d'outil plutôt que de boutique. L'ambiance chaleureuse est réussie et le feedback est bon, mais le focus clavier invisible dans le header est un défaut d'accessibilité bloquant. La double signification de la couleur terracotta brouille aussi ce qui est cliquable.
+J'**élimine** ce design parce que Camille veut **des chiffres précis et une comparaison efficace**, avec un « look » d'outil plutôt que de boutique. L'ambiance chaleureuse est réussie et le feedback est bon, mais le focus clavier invisible dans le header est un défaut d'accessibilité bloquant. La double signification de la couleur terracotta brouille aussi ce qui est cliquable.

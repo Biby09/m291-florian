@@ -1,6 +1,6 @@
 # Fiche critique — design 3 · direction Moderne & Pragmatique (Piste C)
 
-Fichiers évalués : `e2-5/design/propositions/*.html` + `css/piste-c-moderne.css`
+Fichiers évalués : [`design/propositions/`](../propositions/) (4 pages HTML) + [`css/piste-c-moderne.css`](../propositions/css/piste-c-moderne.css)
 Captures : [résultats](../captures/piste-c-moderne-2-resultats.png) · [comparaison](../captures/piste-c-moderne-3-comparaison.png)
 
 ## 2 forces

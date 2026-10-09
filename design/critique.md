@@ -1,16 +1,16 @@
-# e2-6 — Critique comparative & arbitrage de direction artistique
+# Critique comparative & arbitrage de direction artistique
 
 **Projet** : Focale, webapp de comparaison d'appareils photo
 **Persona** : Camille Dubois, 26 ans, photographe freelance. Sur ordinateur, elle veut comparer **plusieurs** appareils avec des **chiffres précis**.
-**Propositions évaluées** (atelier e2-5) : 4 pages HTML identiques (`e2-5/design/propositions/`), 3 feuilles de style :
+**Propositions évaluées** (atelier e2-5) : 4 pages HTML identiques ([`design/propositions/`](propositions/)), 3 feuilles de style :
 
 | Piste | Direction | Fichier CSS |
 |---|---|---|
-| A | Éditoriale & Sobre | `css/piste-a-editoriale.css` |
-| B | Chaleureuse & Terroir | `css/piste-b-chaleureuse.css` |
-| C | Moderne & Pragmatique | `css/piste-c-moderne.css` |
+| A | Éditoriale & Sobre (**sobre**) | [`css/piste-a-editoriale.css`](propositions/css/piste-a-editoriale.css) |
+| B | Chaleureuse & Terroir (**chaleureuse**) | [`css/piste-b-chaleureuse.css`](propositions/css/piste-b-chaleureuse.css) |
+| C | Moderne & Pragmatique (**audacieuse**) | [`css/piste-c-moderne.css`](propositions/css/piste-c-moderne.css) |
 
-Le détail des forces et faiblesses de chaque piste se trouve dans les fiches critiques : [design 1](fiches/fiche-critique-design-1.md) · [design 2](fiches/fiche-critique-design-2.md) · [design 3](fiches/fiche-critique-design-3.md). Les captures (1 440 px de large) sont dans [captures/](captures/).
+Le détail des forces et faiblesses de chaque piste se trouve dans les fiches critiques : [design 1](fiches-critiques/fiche-critique-design-1.md) · [design 2](fiches-critiques/fiche-critique-design-2.md) · [design 3](fiches-critiques/fiche-critique-design-3.md). Les captures (1 440 px de large) sont dans [captures/](captures/).
 
 ## 1. Matrice d'évaluation comparative
 
@@ -60,7 +60,7 @@ La piste C obtient le meilleur total (21/25). Surtout, elle domine sur les deux 
 
 La piste A est la plus lisible et la plus accessible, mais son feedback est trop faible pour une tâche de sélection multiple (2/5). La piste B est la plus chaleureuse, mais elle est éliminée à cause d'un défaut d'accessibilité bloquant : le focus clavier est invisible dans le header (1,19:1).
 
-**Corrections à apporter à la piste C avant l'intégration** (uniquement dans `css/piste-c-moderne.css`) :
+**Corrections à apporter à la piste C avant l'intégration** (uniquement dans [`css/piste-c-moderne.css`](propositions/css/piste-c-moderne.css)) :
 
 1. `--fs-body: 15px` → `17px` et `--fs-small: 12.5px` → `14px`, pour reprendre l'échelle de la piste A.
 2. Passer `--label-text` (étiquettes d'écran) de l'orange à `--color-muted`, pour que l'orange reste réservé aux actions et aux éléments actifs.

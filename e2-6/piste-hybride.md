@@ -5,8 +5,8 @@
 - **De la piste B** : typographie humaniste arrondie, grands arrondis, boutons en pilule, cartes aérées, tableau zébré et anneau de sélection épais.
 - **De la piste C** : fond quasi noir, une seule couleur vive (orange `#FF5B1F`) réservée aux actions et aux éléments actifs, et contrastes tranchés.
 
-**Sources** : `e2-5/design/propositions/css/piste-b-chaleureuse.css` (structure, tailles, arrondis) et `css/piste-c-moderne.css` (couleurs).
-**Critique de référence** : [`e2-6/design/critique.md`](../../e2-6/design/critique.md).
+**Sources** : [`design/propositions/css/piste-b-chaleureuse.css`](../design/propositions/css/piste-b-chaleureuse.css) (structure, tailles, arrondis) et [`css/piste-c-moderne.css`](../design/propositions/css/piste-c-moderne.css) (couleurs).
+**Critique de référence** : [`design/critique.md`](../design/critique.md).
 
 ---
 

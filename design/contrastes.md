@@ -72,7 +72,7 @@ Fichier : `propositions/css/piste-c-moderne.css`
 | Texte secondaire | `#A2A7AF` | `#0E0F11` | [7,93:1](https://webaim.org/resources/contrastchecker/?fcolor=A2A7AF&bcolor=0E0F11) | ✅ | ✅ | — |
 | Texte secondaire sur carte | `#A2A7AF` | `#16181B` | [7,35:1](https://webaim.org/resources/contrastchecker/?fcolor=A2A7AF&bcolor=16181B) | ✅ | ✅ | — |
 | Placeholder recherche | `#8E939B` | `#16181B` | [5,76:1](https://webaim.org/resources/contrastchecker/?fcolor=8E939B&bcolor=16181B) | ✅ | ✅ | — |
-| Étiquette d'écran (accent) | `#FF5B1F` | `#0E0F11` | [6,18:1](https://webaim.org/resources/contrastchecker/?fcolor=FF5B1F&bcolor=0E0F11) | ✅ | ✅ | — |
+| Étiquette d'écran (gris, après l'itération du test utilisateur) | `#A2A7AF` | `#0E0F11` | [7,93:1](https://webaim.org/resources/contrastchecker/?fcolor=A2A7AF&bcolor=0E0F11) | ✅ | ✅ | — |
 | Bouton principal | `#0E0F11` | `#FF5B1F` | [6,18:1](https://webaim.org/resources/contrastchecker/?fcolor=0E0F11&bcolor=FF5B1F) | ✅ | ✅ | — |
 | Badge comparateur | `#0E0F11` | `#FF5B1F` | [6,18:1](https://webaim.org/resources/contrastchecker/?fcolor=0E0F11&bcolor=FF5B1F) | ✅ | ✅ | — |
 | Lien (retour, voir la fiche) | `#FF5B1F` | `#0E0F11` | [6,18:1](https://webaim.org/resources/contrastchecker/?fcolor=FF5B1F&bcolor=0E0F11) | ✅ | ✅ | — |

@@ -38,7 +38,7 @@
   --search-border: 1px solid #2B2F35; --search-pad: 9px 14px;
   --badge-bg: #FF5B1F; --badge-text: #0E0F11;
   --screen-sep: 1px solid #2B2F35;
-  --label-bg: transparent; --label-text: #FF5B1F; --label-pad: 0;
+  --label-bg: transparent; --label-text: #A2A7AF; --label-pad: 0;
   --label-transform: uppercase; --label-tracking: 0.08em;
   --legend-transform: uppercase; --legend-tracking: 0.06em;
 
@@ -310,6 +310,13 @@ h2 { text-transform: uppercase; }
 .product-card:hover { border-color: #6B7078; }
 .btn-secondary:hover { background: #FFFFFF; color: #0E0F11; }
 .logo-dot { display: none; }
+/* Itération après test utilisateur : le lien retour devient un bouton secondaire bien visible */
+.back-link {
+  display: inline-flex; align-items: center; gap: var(--space-s);
+  padding: 10px 18px; border: 2px solid var(--color-accent);
+  font-size: var(--fs-body); text-transform: uppercase; letter-spacing: 0.04em;
+}
+.back-link:hover { background: var(--color-accent); color: var(--btn-text); text-decoration: none; }
 :root {
   --font-num: "JetBrains Mono", ui-monospace, Menlo, monospace;
   --vf-opacity: 1; --vf-color: #6B7078; --vf-len: 18px; --vf-w: 2px; --vf-inset: 14px;

@@ -10,6 +10,8 @@ Je suis Florian et heureux d'être en FPA 2ème
 
 Dossier design (Note 1) : [design/](design/)
 
+Intégration HTML/CSS (e3-1) : [e3/e3-1/1-filtres.html](e3/e3-1/1-filtres.html) — écran d'accueil, puis résultats, comparaison et fiche appareil
+
 ## Comment me trouver
 
 - GitHub: Biby09

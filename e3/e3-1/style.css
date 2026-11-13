@@ -390,6 +390,17 @@ h3 {
     text-transform: uppercase;
 }
 
+/* Message d'état du chargement (chargement, erreur, liste vide) */
+.etat {
+    margin-bottom: var(--space-l);
+    color: var(--color-muted);
+    font-weight: var(--fw-strong);
+}
+
+.etat:empty {
+    display: none;
+}
+
 .section-head .count {
     color: var(--color-muted);
 }
